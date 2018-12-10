@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Davenport School Museum</title>
+    <link rel="stylesheet" href="b-styles.css">
+  </head>
+  <body>
+    <header>
+      <h1 class="site-name"><b>Davenport School Museum</b></h1>
+      <h2 class="subheader"><b>Where history comes alive</b></h2>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Schools</li>
+          <!--drop down into 3 different kinds of schools here
+          i.e. "elementary"-->
+          <li>Jewels of Our Collection</li>
+          <li>History's Mysteries</li>
+          <li>Volunteers</li>
+        </ul>
+      </nav>
+    </header>
+  </body>
+  <h1>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="images/1908_Basketball_Team.jpg">
+      </div>
+      <div class="mySlides fade">
+        <img src="images/1910_High_School_Orchestra.jpg">
+      </div>
+      <div class="mySlides fade">
+        <img src="images/1953_Reunion_memorabilia.jpg">
+      </div>
+      <div class="mySlides fade">
+        <img src="images/Central_Gown.jpg">
+      </div>
+      <div class="mySlides fade">
+        <img src="images/Globe.jpg">
+      </div>
+      <div class="mySlides fade">
+        <img src="images/Human_Heart.jpg">
+      </div>
+      <div class="mySlides fade">
+        <img src="images/Memorabilia.jpg">
+      </div>
+      <div class="mySlides fade">
+        <img src="images/Old_Classroom.jpg">
+      </div>
+      <div class="mySlides fade">
+        <img src="images/OldHorses.jpg">
+      </div>
+      <div class="mySlides fade">
+        <img src="images/School.jpg">
+      </div>
+    </div>
+    <br>
+  </h1>
+  <h1 class="events-header">News, Events and Announcements</h1>
+  <table>
+    <tr>
+      <th>Title</th>
+      <th>Date</th>
+    </tr>
+    <tr>
+      <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</td>
+    </tr>
+    <tr>
+      <th>Our Mission</th>
+      <th>12/6/18</th>
+    </tr>
+    <tr>
+      <td>The history of Davenport, its people, and its schools is one of hard work, determination, and educational excellence. Antoine LeClaire, founder of our city, played a key role in the exploration of the Mississippi River region in the early 1800s.  From 1874 to 1878, Phebe W. Sudlow served Davenport as the first female public school superintendent in the United States.  During the Great Depression, our community did not sit idly by to passively weather the economic woes; we instead rallied around our public schools and built six beautiful new facilities for our students.
+      This industrious spirit is still found in our students, educators, and community at present day.  Nearly 16,000 students attend the Davenport Community Schools, one of the largest school districts in Iowa ‒ a state that is well-known for its excellent educational programming.  Among these students, nearly 1,000 receive their high school diplomas every year.  Each of our graduates is fully prepared to become our future engineers, teachers, and artists. They, together with our teachers, involved parents, agency and business partners, volunteers, and caring citizens, make Davenport Community Schools a district of distinction.</td>
+    </tr>
+  </table>
+  <br>
+  <br>
+  <footer>
+    Davenport School Museum &#9830; 1702 N. Main Street (lower level) &#9830; Davenport, IA 52803 &#9830;
+    Phone: 563-336-7540 &#9830; Email: <a href="mailto:museum@davenportschools.org">museum@davenportschools.org</a>
+  </footer>
+  <script type="text/javascript">
+  var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 3500); // Change image every 2 seconds
+}
+</script>
+</html>

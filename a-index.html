@@ -3,18 +3,25 @@
   <head>
     <meta charset="utf-8">
     <title>Davenport School Museum</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="a-styles.css">
   </head>
   <body>
     <header>
       <h1 class="site-name"><b>Davenport School Museum</b></h1>
       <h2 class="subheader"><b>Where history comes alive</b></h2>
-      <nav>
+      <img src="images/Museum.PNG" alt="Davenport School Museum Logo" class="right-image">
+      <img src="images/DCSD.PNG" alt="Davenport Community Schools" class="left-image">
+      <nav class="navbar">
         <ul>
           <li>Home</li>
-          <li>Schools</li>
-          <!--drop down into 3 different kinds of schools here
-          i.e. "elementary"-->
+          <div class="dropdown">
+            <li class="dropbtn">Schools</li>
+            <div class="dropdown-content">
+              <a href="#">Elementary Schools</a>
+              <a href="#">Intermediate Schools</a>
+              <a href="#">High Schools</a>
+            </div>
+          </div>
           <li>Jewels of Our Collection</li>
           <li>History's Mysteries</li>
           <li>Volunteers</li>
@@ -22,25 +29,29 @@
       </nav>
     </header>
   </body>
-  <h1>
-    Images slideshow goes here
-  </h1>
-  <h1 class="events-header">News, Events and Announcements</h1>
+  <h1>Images slideshow goes here</h1>
   <table>
     <tr>
-      <th>Title</th>
-      <th>Date</th>
+      <th class="events-header">News, Events and Announcements</th>
+    </tr>
+    <tr>
+      <th>Date - Title</th>
     </tr>
     <tr>
       <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</td>
     </tr>
     <tr>
-      <th>Our Mission</th>
-      <th>12/6/18</th>
+      <th>12/6/18 - Our Mission</th>
     </tr>
     <tr>
       <td>The history of Davenport, its people, and its schools is one of hard work, determination, and educational excellence. Antoine LeClaire, founder of our city, played a key role in the exploration of the Mississippi River region in the early 1800s.  From 1874 to 1878, Phebe W. Sudlow served Davenport as the first female public school superintendent in the United States.  During the Great Depression, our community did not sit idly by to passively weather the economic woes; we instead rallied around our public schools and built six beautiful new facilities for our students.
       This industrious spirit is still found in our students, educators, and community at present day.  Nearly 16,000 students attend the Davenport Community Schools, one of the largest school districts in Iowa ‒ a state that is well-known for its excellent educational programming.  Among these students, nearly 1,000 receive their high school diplomas every year.  Each of our graduates is fully prepared to become our future engineers, teachers, and artists. They, together with our teachers, involved parents, agency and business partners, volunteers, and caring citizens, make Davenport Community Schools a district of distinction.</td>
+    </tr>
+    <tr>
+      <th>1/8/02 - Example</th>
+    </tr>
+    <tr>
+      <td>Example sample text that is being used as filler to test this new layout.</td>
     </tr>
   </table>
   <br>
